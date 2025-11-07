@@ -29,8 +29,8 @@ This project builds a demand forecasting model using XGBoost and adds a classifi
 
 ## Repository Structure
 .
-├── README.md
-├── notebooks/
+├── README.md/n
+├── notebooks/ /n
 │   └── classification.ipynb
 └── data/
     └── sample.csv   (optional)
