@@ -1,7 +1,7 @@
 # Inventory-Demand-Forecasting
 This project builds a demand forecasting model using XGBoost and adds a classification layer to convert numeric predictions into actionable stock decisions. The model evaluates its decision quality using standard classification metrics.
 
-##Project Overview
+## Project Overview
 
 *Uses XGBoost regression to predict item-level demand.
 *Converts regression outputs into binary decisions using a configurable threshold.
@@ -9,7 +9,7 @@ This project builds a demand forecasting model using XGBoost and adds a classifi
 *Generates reorder recommendations with safety-factor logic.
 *Saves results to a structured CSV file for downstream use.
 
-##Key Results
+## Key Results
 *MAE: 6.28
 *RMSE: 8.15
 *Accuracy: 92.7%
@@ -17,7 +17,7 @@ This project builds a demand forecasting model using XGBoost and adds a classifi
 *Recall: 94.0%
 *F1 Score: 93.2%
 
-##Tech Stack
+## Tech Stack
 
 *Python
 *Pandas
@@ -27,7 +27,7 @@ This project builds a demand forecasting model using XGBoost and adds a classifi
 *Jupyter Notebook
 *CSV Pipeline
 
-##Repository Structure
+## Repository Structure
 .
 ├── README.md
 ├── notebooks/
@@ -35,13 +35,13 @@ This project builds a demand forecasting model using XGBoost and adds a classifi
 └── data/
     └── sample.csv   (optional)
 
-How to Run
+## How to Run
 
 *Open the classification.ipynb notebook in Jupyter or Google Colab
 *Run all cells in order.
 *Review the generated metrics and the CSV output.
 
-##Features
+## Features
 
 *Demand forecasting using gradient boosting.
 *Threshold-based classification for decision making.
