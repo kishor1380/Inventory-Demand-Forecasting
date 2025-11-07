@@ -28,16 +28,16 @@ This project builds a demand forecasting model using XGBoost and adds a classifi
 *CSV Pipeline
 
 ## Repository Structure
-.
-'''
+
+Inventory-Demand-Forecasting/
 ├── README.md
 ├── notebooks/
 │   └── classification.ipynb
 └── data/
-    └── train.csv
-    └── test.csv
+    ├── train.csv
+    ├── test.csv
     └── submission.csv
-'''
+
 
 ## How to Run
 
